@@ -50,6 +50,6 @@ class User extends Entity
 
     protected function init() : void
     {
-        $this->url = new URL(route_url('users.show', [$this->id]));
+        $this->url = new URL(route_url('api.users.show', [$this->id]));
     }
 }
