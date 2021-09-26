@@ -11,7 +11,6 @@ use Framework\Routing\RouteCollection;
 App::router()->serve('http://localhost:8080', static function (RouteCollection $routes) : void {
     $routes->namespace('App\Controllers', [
         $routes->get('/', 'Home::index', 'home'),
-        $routes->resource('/users', 'Users', 'users', ['replace']),
     ]);
     $routes->notFound(static function () {
         return not_found();
