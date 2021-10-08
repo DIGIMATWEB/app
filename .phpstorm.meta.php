@@ -43,6 +43,10 @@ registerArgumentsSet(
     'langs',
     'home.description',
     'home.title',
+    'users.configs',
+    'users.email',
+    'users.name',
+    'users.password',
 );
 expectedArguments(
     \lang(),
@@ -53,6 +57,12 @@ expectedArguments(
 // Routes
 registerArgumentsSet(
     'routes',
+    'api.home',
+    'api.users.create',
+    'api.users.delete',
+    'api.users.index',
+    'api.users.show',
+    'api.users.update',
     'home',
 );
 expectedArguments(

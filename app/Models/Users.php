@@ -15,7 +15,8 @@ use Framework\MVC\Model;
  *
  * @package app
  *
- * @method User|null find(int|string $id)
+ * @method \App\Entities\User|null find(int|string $id)
+ * @method \App\Entities\User[] paginate(int $page, int $perPage = 10)
  */
 class Users extends Model
 {

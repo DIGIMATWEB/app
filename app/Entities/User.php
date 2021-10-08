@@ -16,14 +16,14 @@ use Framework\MVC\Entity;
  *
  * @package app
  *
- * @property int $id;
- * @property string $name;
- * @property string $email;
- * @property string $password;
- * @property URL $url;
- * @property array $configs;
- * @property Date $createdAt;
- * @property Date $updatedAt;
+ * @property int $id
+ * @property string $name
+ * @property string $email
+ * @property string $password
+ * @property \Framework\HTTP\URL $url
+ * @property array $configs
+ * @property \Framework\Date\Date $createdAt
+ * @property \Framework\Date\Date $updatedAt
  */
 class User extends Entity
 {
